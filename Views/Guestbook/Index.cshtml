@@ -1,0 +1,70 @@
+@model PostViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+
+<h3 class="h3"> Guestbook</h3>
+
+
+<!DOCTYPE html>
+
+<html>
+
+
+<body background="images/image2.jpg">
+
+
+<div class="row">
+    <div class="col-5 " style="position: center">
+        <h2 class="h2"> Write a post here: </h2>
+        <h1 class="h1"> Posts</h1>
+        <div class="p-3"></div>
+
+
+
+        <form method="post">
+
+            <h4 class="h4">Name: </h4>
+            <input asp-for="Post.Name" id="Post_Name"/>
+            <div class="p-2"></div>
+            <h4 class="h4">Title: </h4>
+            <input asp-for="Post.Title" id="Post_Title"/>
+            <div class="p-2"></div>
+            <h4 class="h4">Message: </h4>
+            <textarea asp-for="Post.Message" id="Post_Message"></textarea>
+            
+            <div class="p-3"></div>
+            <input class="btn" type="submit" id="Submit"/>
+
+        </form>
+    </div>
+   
+    <div class="p-3"></div>
+    <div class="modal-scrollbar-measure">
+       
+        
+     
+        @foreach (var p in Model.Posts)
+
+        {
+            
+                <div class="container " id="Container1">
+                
+                    <partial name="_PostPartial", model="p"/>
+                </div>
+           
+           
+          
+        }
+
+    </div>
+
+
+</div>
+
+
+
+</body>

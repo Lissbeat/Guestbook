@@ -1,0 +1,88 @@
+.intro {
+    background-color: yellow;
+}
+.h3{
+    fill: #35322a;
+    filter: url('#money');
+    font-family: 'Playfair Display', 'Georgia', serif;
+    font-size: 120px;
+    font-weight: 900;
+    
+}
+.h4
+{
+    fill: #35322a;
+    filter: url('#money');
+    font-family: 'Playfair Display', 'Georgia', serif;
+}
+.h2
+{
+    fill: #35322a;
+    filter: url('#money');
+    font-family: 'Playfair Display', 'Georgia', serif;
+}
+.h1
+{
+    border: 2px solid grey;
+    fill: #35322a;
+    filter: url('#money');
+    font-family: 'Playfair Display', 'Georgia', serif;
+    
+    position: relative;  
+    left: 1050px;
+    top: 10px;
+    
+}
+.p{
+    fill: #35322a;
+    filter: url('#money');
+    font-family: 'Playfair Display', 'Georgia', serif;
+}
+.modal-scrollbar-measure
+{
+    position: relative;
+    left: 600px;
+    top: 150px;
+    width: 400px;
+    height: 700px;
+
+}
+#Container1 {
+    border: 2px solid grey;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+#Post_Name
+{
+    border: 2px solid grey;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+#Post_Title
+{
+    border: 2px solid grey;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+#Post_Message
+{
+   
+    
+    height: 300px;
+    width: 900px;
+    border: 2px solid grey;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+
+#Submit
+{
+    border: 2px solid grey;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+}
